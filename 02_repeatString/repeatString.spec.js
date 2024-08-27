@@ -35,7 +35,7 @@ describe("repeatString", () => {
       number
     );
   });
-  test.skip("works with blank strings", () => {
+  test("works with blank strings", () => {
     expect(repeatString("", 10)).toEqual("");
   });
 });
